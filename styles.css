@@ -1,0 +1,16 @@
+#raincloud {
+
+}
+
+.drop {
+    animation: alternate drop-animation 2s;
+}
+
+@keyframes drop-animation {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
